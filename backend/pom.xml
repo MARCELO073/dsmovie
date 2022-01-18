@@ -13,7 +13,7 @@
 	<artifactId>dsmovie</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dsmovie</name>
-	<description>Projeto criado na semana Spring React</description>
+	<description>Projeto criado na 6 semana Sprint-React</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -46,7 +46,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
